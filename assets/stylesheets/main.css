@@ -1,0 +1,99 @@
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/lato/lato-light-webfont.eot');
+  src: url('../fonts/lato/lato-light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/lato/lato-light-webfont.woff') format('woff'), url('../fonts/lato/lato-light-webfont.ttf') format('truetype'), url('../fonts/lato/lato-light-webfont.svg#latolight') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/lato/lato-regular-webfont.eot');
+  src: url('../fonts/lato/lato-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/lato/lato-regular-webfont.woff') format('woff'), url('../fonts/lato/lato-regular-webfont.ttf') format('truetype'), url('../fonts/lato/lato-regular-webfont.svg#latoregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/lato/lato-bold-webfont.eot');
+  src: url('../fonts/lato/lato-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/lato/lato-bold-webfont.woff') format('woff'), url('../fonts/lato/lato-bold-webfont.ttf') format('truetype'), url('../fonts/lato/lato-bold-webfont.svg#latobold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+.inline-block {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+}
+.clearfix:after {
+  clear: both;
+}
+
+.container{
+	margin:0 auto;
+	max-width:1080px;
+}
+body,html{
+	height:100%;
+	margin:0;
+	padding:0;
+}
+body{
+	font-family: 'Lato', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.231;
+	color: #34495e;
+	background: #2C3E50;
+
+
+}
+
+a{color:inherit;}
+
+.header{
+	min-height:50px;
+	width:auto;
+	color:#ECF0F1;
+}
+.header .logo{
+	display:inline;
+	font-size:5em;
+	margin:0;
+	color:#ECF0F1;
+}
+.header .description{
+	display:inline;
+	font-size:1em;
+}
+
+.section{
+	background-color:#ECF0F1;
+	min-height: 750px;
+	padding:15px;
+}
+.section .container{
+}
+.section .half{
+	width:48%;
+	margin:0.5%;
+	padding:0.5%;
+}
+.section .quarter{
+	width:23%;
+	margin:0.5%;
+	padding:0.5%;
+}
+
+.footer{
+	min-height: 250px;
+	color:#BDC3C7;
+	text-align: center;
+}
