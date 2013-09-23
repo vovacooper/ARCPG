@@ -1,0 +1,20 @@
+# This is the default format. 
+# For more see: http://jekyllrb.com/docs/permalinks/
+permalink: /:categories/:year/:month/:day/:title 
+
+
+base_path: /ARCPG
+safe: true
+
+css_dir: /assets/stylesheets
+fonts_dir: /assets/fonts
+image_dir: /assets/images
+
+title : ARCPG feature site
+tagline: Site Tagline
+author :
+  name : Name Lastname
+  email : blah@email.test
+  github : username
+  twitter : username
+  feedburner : feedname

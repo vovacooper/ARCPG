@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+    <meta name="author" content="{{ site.author.name }}">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link href="{{ site.base_path }}{{ site.css_dir }}/normalize.css" rel="stylesheet" type="text/css">
+    <link href="{{ site.base_path }}{{ site.css_dir }}/main.css" rel="stylesheet" type="text/css" media="all">
+
+  <!-- 
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  -->
+
+  </head>
+  <body>
+  	<div class="header">
+  		<div class="container">
+  			<h1 class="logo">ARCPG</h1>
+  			<p class="description">Description about the application</p>
+  		</div>
+  	</div>
+  	<div class="section">
+  		
+  		<div class="container">
+  			
+  			{{ content }}
+
+  		</div>
+
+  	</div>
+
+  	<div class="footer">
+  		<div class="container">
+  			<p class="copyright">Arcpg maintained by <a href="https://github.com/vovacooper">vovacooper</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+  		</div>
+  	</div>
+  </body>
+</html>
